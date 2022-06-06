@@ -1,0 +1,37 @@
+﻿body {
+	font-family: Roboto, San Francisco, Segoe UI, sans-serif;
+	margin: 24px;
+}
+input, select { padding: 4px; }
+button, input, select { font-size: 16px; }
+
+#btnGetPremium {
+	background-color: #007BFF;
+	border: none;
+	border-radius: 8px;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin-bottom: 12px;
+	padding: 12px;
+}
+#btnGetPremium:hover { opacity: 0.9; }
+#btnGetPremium:active { opacity: 0.7; }
+#Calculator { 
+	border: 1px solid #000000;
+	display: flex;
+	padding: 24px;
+}
+#Calculator > section:nth-child(2) { margin-left: 48px; }
+#Form > section {
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+#Form > section > section:nth-child(2) { margin-left: 48px; }
+#Form > section > section:nth-child(2) > label { width: 96px; }
+#Form > section, #Form > section > section { display: flex; }
+#Form > section > *, #Form > section > section > * { align-self: center; }
+#Form > section > label, #Form > section > section:nth-child(1) > label { width: 128px; }
+#Form > section > input, #Form > section > select, #Form > section > section > input, #Form > section > section > select {
+	box-sizing: border-box;
+	width: 160px;
+}

@@ -1,0 +1,77 @@
+﻿@using TranzactChallenge.Entities
+@{
+	IEnumerable<Plan> plans = ViewBag.Plans as IEnumerable<Plan>;
+	IEnumerable<State> states = ViewBag.States as IEnumerable<State>;
+}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" />
+		<title>Premium Calculator</title>
+		<link href="~/Content/css/Main_Index.css" rel="stylesheet" />
+		<script src="~/Content/js/Main_Index.js" defer></script>
+	</head>
+	<body>
+		<section id="Form">
+			<section>
+				<label for="txtDateOfBirth">Date of Birth</label>
+				<input id="txtDateOfBirth" type="date" name="DateOfBirth" required min="1900-01-01" />
+			</section>
+			<section>
+				<section>
+					<label for="slcState">State</label>
+					<select id="slcState" name="State" required>
+						@foreach (State state in states)
+						{
+							<option value="@state.Code">@state.Code - @state.Name</option>
+						}
+					</select>
+				</section>
+				<section>
+					<label for="slcPlan">Plan</label>
+					<select id="slcPlan" name="Plan" required>
+						@foreach (Plan plan in plans)
+						{
+							<option value="@plan.Name">@plan.Name</option>
+						}
+					</select>
+				</section>
+			</section>
+			<section>
+				<label for="txtAge">Age</label>
+				<input id="txtAge" type="number" name="Age" required readonly />
+			</section>
+		</section>
+		<section id="Calculator">
+			<section>
+				<section>
+					<button id="btnGetPremium">Get Premium</button>
+				</section>
+				<section>
+					<label for="slcPeriod">Period</label>
+					<select id="slcPeriod" name="Period">
+						<option value="1">Monthly</option>
+						<option value="3">Quarterly</option>
+						<option value="6">Semi-Annually</option>
+						<option value="12">Annually</option>
+					</select>
+				</section>
+			</section>
+			<section>
+				<span id="lblRequestingCalculation" style="color: red; display: none">Requesting calculation from Tranzact Premium Calculator service...</span>
+				<table id="tblResults" style="display: none">
+					<thead>
+						<tr>
+							<th>Carrier</th>
+							<th>Premium</th>
+							<th>Annually</th>
+							<th>Monthly</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</section>
+		</section>
+	</body>
+</html>

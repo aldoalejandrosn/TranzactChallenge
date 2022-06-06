@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<insurances>
+	<insurance carrier="Qwerty" plans="A" state="NY" monthOfBirth="September" ageRangeFrom="21" ageRangeTo="45" premium="150" />
+	<insurance carrier="Qwerty" plans="B" state="NY" monthOfBirth="January" ageRangeFrom="46" ageRangeTo="65" premium="200.5" />
+	<insurance carrier="Qwerty" plans="A, C" state="NY" monthOfBirth="*" ageRangeFrom="18" ageRangeTo="65" premium="120.99" />
+	<insurance carrier="Qwerty" plans="A" state="AL" monthOfBirth="November" ageRangeFrom="18" ageRangeTo="65" premium="85.5" />
+	<insurance carrier="Qwerty" plans="C" state="AL" monthOfBirth="*" ageRangeFrom="18" ageRangeTo="65" premium="100" />
+	<insurance carrier="Qwerty" plans="A" state="AK" monthOfBirth="December" ageRangeFrom="65" ageRangeTo="120" premium="175.2" />
+	<insurance carrier="Qwerty" plans="A" state="AK" monthOfBirth="December" ageRangeFrom="18" ageRangeTo="64" premium="125.16" />
+	<insurance carrier="Qwerty" plans="B" state="AK" monthOfBirth="*" ageRangeFrom="18" ageRangeTo="65" premium="100.8" />
+	<insurance carrier="Qwerty" plans="A, C" state="*" monthOfBirth="*" ageRangeFrom="18" ageRangeTo="65" premium="90" />
+	<insurance carrier="Asdf" plans="A" state="NY" monthOfBirth="October " ageRangeFrom="21" ageRangeTo="65" premium="150" />
+	<insurance carrier="Asdf" plans="B" state="NY" monthOfBirth="January" ageRangeFrom="46" ageRangeTo="65" premium="184.5" />
+	<insurance carrier="Asdf" plans="A" state="NY" monthOfBirth="*" ageRangeFrom="18" ageRangeTo="65" premium="129.95" />
+	<insurance carrier="Asdf" plans="A" state="AL" monthOfBirth="November" ageRangeFrom="18" ageRangeTo="65" premium="84.5" />
+	<insurance carrier="Asdf" plans="B" state="WY" monthOfBirth="*" ageRangeFrom="18" ageRangeTo="65" premium="100" />
+	<insurance carrier="Asdf" plans="B, C" state="AK" monthOfBirth="*" ageRangeFrom="18" ageRangeTo="65" premium="100.8" />
+	<insurance carrier="Asdf" plans="A, C" state="*" monthOfBirth="*" ageRangeFrom="18" ageRangeTo="65" premium="89.99" />
+</insurances>
