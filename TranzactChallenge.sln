@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranzactChallenge.BLL", "Tr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranzactChallenge.Web", "TranzactChallenge.Web\TranzactChallenge.Web.csproj", "{226359FB-6CD3-427D-BE45-A62BC96E1130}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranzactChallenge.UnitTesting", "TranzactChallenge.UnitTesting\TranzactChallenge.UnitTesting.csproj", "{3370C552-8B12-4E6E-AF6B-5283F60FAAB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{226359FB-6CD3-427D-BE45-A62BC96E1130}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{226359FB-6CD3-427D-BE45-A62BC96E1130}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{226359FB-6CD3-427D-BE45-A62BC96E1130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3370C552-8B12-4E6E-AF6B-5283F60FAAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3370C552-8B12-4E6E-AF6B-5283F60FAAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3370C552-8B12-4E6E-AF6B-5283F60FAAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3370C552-8B12-4E6E-AF6B-5283F60FAAB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
